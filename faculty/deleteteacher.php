@@ -7,6 +7,7 @@
 
 	if ($result) {
 		echo "success";
+		echo $sql;
 	}else{
 		echo $sql;
 	}	
