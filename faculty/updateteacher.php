@@ -20,7 +20,7 @@
 
 	// if (json_encode($obj) != "") {
 	// 	echo json_encode($obj);
-	}
+	// }
 	
 
 ?>
