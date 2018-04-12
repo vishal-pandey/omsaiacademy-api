@@ -8,7 +8,7 @@
 	$obj = new StdClass();
 
 	
-	$obj = $result->fetch_object() 
+	$obj = $result->fetch_object();
 
 	if (json_encode($obj) != "") {
 		echo json_encode($obj);
