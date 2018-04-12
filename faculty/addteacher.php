@@ -11,6 +11,8 @@
 
 	if ($result) {
 		echo "success";
+	}else{
+		echo $sql;
 	}
 
 	// $obj = new StdClass();
