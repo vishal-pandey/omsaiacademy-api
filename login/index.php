@@ -1,7 +1,7 @@
 <?php
+	header("Access-Control-Allow-Origin: *");
 	use \Firebase\JWT\JWT;
 	require '../vendor/autoload.php';
-	header("Access-Control-Allow-Origin: *");
 	
 	$json = file_get_contents("php://input");
 	if ($json) {
