@@ -1,9 +1,9 @@
 <?php
-	// include "../db/connect.php";
+	include "../db/connect.php";
 	$id = $_POST['id'];
 
-	
-	$sql = "select * from faculty where id = ".$id;
+
+	$sql = "select * from faculty";
 
 	$result = $conn->query($sql);
 	$obj = new StdClass();
