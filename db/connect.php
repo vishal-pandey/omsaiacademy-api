@@ -5,6 +5,6 @@
 	$pwd = "12345";
 	$db = "omsaiacademy";
 
-	$conn = new mysqli_connect($server, $user, $pwd, $db);
+	$conn =  mysqli_connect($server, $user, $pwd, $db);
 
 ?>
