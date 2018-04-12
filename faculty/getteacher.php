@@ -3,7 +3,7 @@
 	$id = $_POST['id'];
 
 
-	$sql = "select * from faculty";
+	$sql = "select * from faculty where id = ".$id;
 
 	$result = $conn->query($sql);
 	$obj = new StdClass();
