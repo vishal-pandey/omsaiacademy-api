@@ -6,7 +6,7 @@
 	$mobile = $_POST['mobile'];
 	$about = $_POST['about'];
 
-	$sql = "insert into faculty (name, quali, mobile, about) VALUES ('{$name}'.'{$quali}'.'{$mobile}'.'{$about}')";
+	$sql = "insert into faculty (name, quali, mobile, about) VALUES ('{$name}','{$quali}','{$mobile}','{$about}')";
 	$result = $conn->query($sql);
 
 	if ($result) {
