@@ -1,5 +1,5 @@
 <?php
-	include "../db/connect.php";
+	// include "../db/connect.php";
 	// $id = $_POST['id'];
 
 	// echo $id;
