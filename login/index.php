@@ -1,5 +1,4 @@
 <?php
-	header("Access-Control-Allow-Origin: *");
 	use \Firebase\JWT\JWT;
 	require '../vendor/autoload.php';
 	
