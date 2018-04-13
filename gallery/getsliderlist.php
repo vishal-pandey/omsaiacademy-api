@@ -1,6 +1,6 @@
 <?php
 	$dir = "./slider";
 	$img = scandir($dir);
-	echo json_decode($img);
-	print_r($img);
+	echo json_encode($img);
+	// print_r($img);
 ?>
