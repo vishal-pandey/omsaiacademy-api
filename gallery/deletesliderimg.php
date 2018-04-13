@@ -5,4 +5,5 @@
 	if (unlink($dir.$img)) {
 		echo "success";
 	}
+	echo $dir.$img;
 ?>
