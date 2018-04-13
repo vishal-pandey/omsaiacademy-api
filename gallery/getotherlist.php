@@ -1,5 +1,5 @@
 <?php
-	$dir = "./slider";
+	$dir = "./other";
 	$img = scandir($dir);
 	echo json_encode($img);
 ?>
